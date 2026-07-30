@@ -1,5 +1,7 @@
 # java-get-started
 
+https://github.com/chatopera/java-get-started/
+
 学习 Java 的范例。
 
 ## 示例
