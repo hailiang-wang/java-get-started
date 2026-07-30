@@ -11,4 +11,5 @@ PKG_NAME=com.chatopera.tutorials.java.basictypes
 # main 
 [ -z "${BASH_SOURCE[0]}" -o "${BASH_SOURCE[0]}" = "$0" ] || return
 cd $baseDir/../../../../../../../../..
+pwd
 ./scripts/run.sh $PKG_NAME.Sample
