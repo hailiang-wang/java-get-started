@@ -31,6 +31,7 @@ echo "Compile java class " `pwd`/$javaClassPath "to" `pwd`/$javaClassCompiled ".
 cd $baseDir/../app/src/main/java
 if [ -f $javaClassPath ]; then
     set -x
+    pwd
     javac -classpath "$CLASSPATH_EXT:`pwd`" $javaClassPath
     set +x
     if [ $? -eq 0 ]; then
