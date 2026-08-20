@@ -3,14 +3,14 @@ package day260804;
 /**
  * Book 类
  */
-class Book {
+public class Book {
     public String name;
     public String author;
     public String isbn;
     public double price;
 
     // 实例化方法
-    protected Book(){
+    public Book(){
         this.name = "张三";
         this.price = 1.0;
     }
