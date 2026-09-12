@@ -1,5 +1,7 @@
 package day260906;
 
+// LeetCode, 1143. Longest Common Subsequence
+// https://leetcode.com/problems/longest-common-subsequence/description/
 //
 // 给定两个字符串 text1 和 text2，返回这两个字符串的**最长公共子序列**的长度。如果不存在公共子序列，返回 0。
 //
