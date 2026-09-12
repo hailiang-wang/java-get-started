@@ -3,7 +3,7 @@ package day260906;
 /**
  * https://medium.com/appkodersolution/longest-common-subsequence-leetcode-q1143-optimized-java-solution-using-dynamic-programming-f2de58a43876
  */
-public class Solution {
+public class Solution2 {
     // Function to compute the length of the Longest Common Subsequence
     public static int lcs(String s1, String s2) {
         int m = s1.length(); // Get the length of the first string
