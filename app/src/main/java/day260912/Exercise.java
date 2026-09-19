@@ -3,8 +3,10 @@ package day260912;
 /**
  *
  * https://leetcode.com/problems/longest-palindromic-substring/description/
+ * 如果拆开，叫做子序列，sub-sequence
+ * 不支持拆开，叫做 子字符串， substring
  *
- * Given a string s, return the longest palindromic substring in s.
+ * Given a string s, return the longest palindromic/回文的/ substring in s.
 Example 1:
 
 Input: s = "babad"
@@ -14,7 +16,6 @@ Example 2:
 
 Input: s = "cbbd"
 Output: "bb"
-
 
 Constraints:
 
