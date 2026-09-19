@@ -2,6 +2,10 @@ package day260906;
 
 /**
  * https://medium.com/appkodersolution/longest-common-subsequence-leetcode-q1143-optimized-java-solution-using-dynamic-programming-f2de58a43876
+ * 动画演示：
+ * cd LeetCode/ByteQuest0_Animation_codes  # Clone LeetCode from https://github.com/hailiang-wang/LeetCode
+ * cd 2025/Dynamic_Programming/
+ * manimgl code.py LongestCommonSubsequence
  */
 public class Solution2 {
     // Function to compute the length of the Longest Common Subsequence

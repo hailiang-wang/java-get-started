@@ -16,11 +16,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="sample" class="com.chatopera.tutorials.java.spring.Sample">
+    <bean id="sample" class="tutorials.spring.Sample">
         <property name="message" value="Hello World!" />
     </bean>
 
-    <bean id="interest" class="com.chatopera.tutorials.java.spring.Interest">
+    <bean id="interest" class="tutorials.spring.Interest">
         <property name="sample">
             <ref bean="sample"/>
         </property>

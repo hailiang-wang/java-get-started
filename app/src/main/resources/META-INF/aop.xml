@@ -12,7 +12,7 @@
 
 <aspectj>
     <aspects>
-        <aspect name="com.chatopera.tutorials.java.aspectj.SecuredMethodAspect"/>
+        <aspect name="tutorials.aspectj.SecuredMethodAspect"/>
         <weaver options="-verbose -showWeaveInfo">
             <include within="com.chatopera.tutorials.java.aspectj.*"/>
         </weaver>
